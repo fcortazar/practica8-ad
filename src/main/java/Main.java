@@ -1,21 +1,42 @@
-import java.io.InputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.sql.*;
 import java.util.Properties;
+import java.util.Scanner;
+
 public class Main {
+
+    private static Connection connection;
+
     public static void main(String[] args) {
+        cargarConfiguracion();
+
+        try {
+            Class.forName(Configuracion.getProperty("db.driver"));
+            connection = DriverManager.getConnection(
+                    Configuracion.getProperty("db.url"),
+                    Configuracion.getProperty("db.usuario"),
+                    Configuracion.getProperty("db.clave")
+            );
+
+            while (true) {
+                mostrarMenu();
+            }
+        } catch (ClassNotFoundException | SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void cargarConfiguracion() {
         Properties propiedades = new Properties();
-        try (InputStream entrada = Main.class.getClassLoader().getResourceAsStream("file.properties")) {
-            propiedades.load(entrada);
-        } catch (Exception e) {
+        try (FileReader reader = new FileReader("src/main/resources/file.properties")) {
+            propiedades.load(reader);
+        } catch (IOException e) {
             e.printStackTrace();
         }
 
-        // Obtener valores
-        String nombreApp = propiedades.getProperty("nombre_app");
-        String version = propiedades.getProperty("version");
-        boolean modoDebug = Boolean.parseBoolean(propiedades.getProperty("modo_debug"));
-
-        System.out.println("Nombre de la aplicación: " + nombreApp);
-        System.out.println("Versión: " + version);
-        System.out.println("Modo debug: " + modoDebug);
+        Configuracion.setProperties(propiedades);
     }
+
+    // Resto del código...
 }
