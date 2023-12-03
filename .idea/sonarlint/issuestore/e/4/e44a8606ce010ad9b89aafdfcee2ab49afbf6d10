@@ -1,3 +1,91 @@
 
-
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘8’ßù‡Ã1
+g	java:S112B"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8½ĞÀŒÃ1
+s
+java:S1192ˆ"UDefine a constant instead of duplicating this literal "--------------------" 3 times.(Œ€ÿ8ÂĞÀŒÃ1
+k
+java:S1192‡"HDefine a constant instead of duplicating this literal "Email: " 3 times.(ÜÅÉÓÿÿÿÿÿ8ÂĞÀŒÃ1
+l
+java:S1192†"IDefine a constant instead of duplicating this literal "Nombre: " 3 times.(œ½ÏÃûÿÿÿÿ8ÂĞÀŒÃ1
+d
+java:S1192ƒ"GDefine a constant instead of duplicating this literal "nombre" 4 times.(ãµL8ÂĞÀŒÃ1
+i
+java:S1192„"FDefine a constant instead of duplicating this literal "email" 4 times.(Š©Ì•úÿÿÿÿ8ÃĞÀŒÃ1
+j
+java:S2095 "GUse try-with-resources or close this "Statement" in a "finally" clause.(³ÿ’ºúÿÿÿÿ8°İÀŒÃ1
+i
+java:S2095t"GUse try-with-resources or close this "Statement" in a "finally" clause.(³ÿ’ºúÿÿÿÿ8¯İÀŒÃ1
+j
+java:S2095±"GUse try-with-resources or close this "Statement" in a "finally" clause.(³ÿ’ºúÿÿÿÿ8ÛşÀŒÃ1
+j
+java:S2095»"GUse try-with-resources or close this "Statement" in a "finally" clause.(³ÿ’ºúÿÿÿÿ8¯İÀŒÃ1
+j
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(³ÿ’ºúÿÿÿÿ8°İÀŒÃ1
+i
+java:S2095{"GUse try-with-resources or close this "Statement" in a "finally" clause.(³ÿ’ºúÿÿÿÿ8¯İÀŒÃ1
+i
+java:S2095`"GUse try-with-resources or close this "Statement" in a "finally" clause.(³ÿ’ºúÿÿÿÿ8¯İÀŒÃ1
+i
+java:S2095k"GUse try-with-resources or close this "Statement" in a "finally" clause.(³ÿ’ºúÿÿÿÿ8ÜşÀŒÃ1
+j
+java:S2095
+"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(û“•Ö8°İÀŒÃ1
+d
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(¹††™8°İÀŒÃ1
+j
+java:S2095Ê"GUse try-with-resources or close this "Statement" in a "finally" clause.(¬×Â¦ùÿÿÿÿ8¯İÀŒÃ1
+
+java:S4087@"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ÉÄÜ£8ÀİÀŒÃ1
+L	java:S106"+Replace this use of System.out by a logger.(¶©€úÿÿÿÿ8ÂİÀŒÃ1
+L	java:S106"+Replace this use of System.out by a logger.(“¸»şÿÿÿÿ8ÃİÀŒÃ1
+L	java:S106"+Replace this use of System.out by a logger.(æå«÷úÿÿÿÿ8ÃİÀŒÃ1
+L	java:S106"+Replace this use of System.out by a logger.(¹êî„ÿÿÿÿÿ8ÄİÀŒÃ1
+G	java:S106"+Replace this use of System.out by a logger.(»ø°é8ÄİÀŒÃ1
+L	java:S106"+Replace this use of System.out by a logger.(Ğ½ãôúÿÿÿÿ8ÄİÀŒÃ1
+G	java:S106"+Replace this use of System.out by a logger.(ÿ‹œ™8ÄİÀŒÃ1
+L	java:S106"+Replace this use of System.out by a logger.(üÕ÷±ÿÿÿÿÿ8ÅİÀŒÃ1
+F	java:S106"+Replace this use of System.out by a logger.(›öĞ8ÅİÀŒÃ1
+F	java:S106 "+Replace this use of System.out by a logger.(µŒ“]8ÅİÀŒÃ1
+L	java:S1069"+Replace this use of System.out by a logger.(¬õÇßüÿÿÿÿ8ÇİÀŒÃ1
+G	java:S106<"+Replace this use of System.out by a logger.(áİĞª8ÈİÀŒÃ1
+L	java:S106F"+Replace this use of System.out by a logger.(Á‚øóøÿÿÿÿ8ĞİÀŒÃ1
+L	java:S106G"+Replace this use of System.out by a logger.(Ç…œŠøÿÿÿÿ8ĞİÀŒÃ1
+L	java:S106H"+Replace this use of System.out by a logger.(µô¢Åüÿÿÿÿ8ÑİÀŒÃ1
+G	java:S106I"+Replace this use of System.out by a logger.(ÓáÚè8ÑİÀŒÃ1
+G	java:S106V"+Replace this use of System.out by a logger.(µÓ¸ë8ÒİÀŒÃ1
+G	java:S106\"+Replace this use of System.out by a logger.(ÍáÊÓ8ÔİÀŒÃ1
+G	java:S106^"+Replace this use of System.out by a logger.(œ”å8ÕİÀŒÃ1
+L	java:S106c"+Replace this use of System.out by a logger.(‚ÏîÎşÿÿÿÿ8ÖİÀŒÃ1
+L	java:S106f"+Replace this use of System.out by a logger.(ıÄ½Àıÿÿÿÿ8ÖİÀŒÃ1
+L	java:S106i"+Replace this use of System.out by a logger.(ãÚ—˜úÿÿÿÿ8×İÀŒÃ1
+G	java:S106n"+Replace this use of System.out by a logger.(Ş”Æ¹8ØİÀŒÃ1
+F	java:S106q"+Replace this use of System.out by a logger.(şùˆo8ÙİÀŒÃ1
+G	java:S106w"+Replace this use of System.out by a logger.(Ñ”¸8ÚİÀŒÃ1
+L	java:S106"+Replace this use of System.out by a logger.(ã¥¥íşÿÿÿÿ8ÜİÀŒÃ1
+H	java:S106…"+Replace this use of System.out by a logger.(²Ëİê8İİÀŒÃ1
+M	java:S106†"+Replace this use of System.out by a logger.(œ½ÏÃûÿÿÿÿ8İİÀŒÃ1
+M	java:S106‡"+Replace this use of System.out by a logger.(ÜÅÉÓÿÿÿÿÿ8ŞİÀŒÃ1
+H	java:S106ˆ"+Replace this use of System.out by a logger.(Œ€ÿ8ŞİÀŒÃ1
+M	java:S106"+Replace this use of System.out by a logger.(º»¥ÿÿÿÿÿ8ßİÀŒÃ1
+H	java:S106–"+Replace this use of System.out by a logger.(²Ëİê8áİÀŒÃ1
+M	java:S106—"+Replace this use of System.out by a logger.(œ½ÏÃûÿÿÿÿ8áİÀŒÃ1
+M	java:S106˜"+Replace this use of System.out by a logger.(ÜÅÉÓÿÿÿÿÿ8áİÀŒÃ1
+H	java:S106™"+Replace this use of System.out by a logger.(Œ€ÿ8áİÀŒÃ1
+H	java:S106"+Replace this use of System.out by a logger.(îû´8âİÀŒÃ1
+H	java:S106§"+Replace this use of System.out by a logger.(²Ëİê8äİÀŒÃ1
+M	java:S106¨"+Replace this use of System.out by a logger.(œ½ÏÃûÿÿÿÿ8äİÀŒÃ1
+M	java:S106©"+Replace this use of System.out by a logger.(ÜÅÉÓÿÿÿÿÿ8åİÀŒÃ1
+H	java:S106ª"+Replace this use of System.out by a logger.(Œ€ÿ8åİÀŒÃ1
+M	java:S106®"+Replace this use of System.out by a logger.(¬î¦¢ıÿÿÿÿ8æİÀŒÃ1
+H	java:S106µ"+Replace this use of System.out by a logger.(‰ş¼¦8éİÀŒÃ1
+M	java:S106·"+Replace this use of System.out by a logger.(ÀÜ™Íøÿÿÿÿ8éİÀŒÃ1
+\
+java:S1854Á"9Remove this useless assignment to local variable "email".(ŠÔÁäşÿÿÿÿ8êİÀŒÃ1
+]
+java:S1854À":Remove this useless assignment to local variable "nombre".(Ã˜¡Äøÿÿÿÿ8ˆÿÀŒÃ1
+N
+java:S1481À"+Remove this unused "nombre" local variable.(Ã˜¡Äøÿÿÿÿ8‰ÿÀŒÃ1
+M
+java:S1481Á"*Remove this unused "email" local variable.(ŠÔÁäşÿÿÿÿ8íİÀŒÃ1
+H	java:S106Ä"+Replace this use of System.out by a logger.(‰€´—8‹ÿÀŒÃ1
+M	java:S106Æ"+Replace this use of System.out by a logger.(¢Í¯úÿÿÿÿ8ŒÿÀŒÃ1
+H	java:S106Í"+Replace this use of System.out by a logger.(ç¨İ•8ÿÀŒÃ1
