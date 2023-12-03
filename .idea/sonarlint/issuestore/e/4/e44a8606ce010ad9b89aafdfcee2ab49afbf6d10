@@ -1,0 +1,5 @@
+
+{
+java:S1450	"YRemove the "connection" field and declare it as a local variable in the relevant methods.(’çù†ûÿÿÿÿ8Ã®í…Ã1
+P
+java:S1068	".Remove this unused "connection" private field.(’çù†ûÿÿÿÿ8Ö®í…Ã1
