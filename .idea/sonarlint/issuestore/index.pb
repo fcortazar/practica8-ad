@@ -7,16 +7,6 @@ G
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 S
-#src/main/java/mostrarRegistros.java,e\e\eeb6190a57caf98b6c43993584b40cf162de1ec0
-K
-src/main/java/buscarId.java,0\d\0d4de363bf74f85495896b5a0d8f50cf81a3f30f
-R
-"src/main/java/agregarRegistro.java,2\a\2ac1421915ed6e037a4f766bad7fbb258fc0daac
-T
-$src/main/java/modificarRegistro.java,0\a\0a9a2ec39905e3e6994c73fe0a06c979f2d68fa3
-Q
-!src/main/java/cerrarConexion.java,1\3\132d93f20674184b7bb8cfc94ed5e16a956d29ba
-S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 w
 G.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,e\d\ed67eb178d523a4b3f117dcbe0eda5196367ceec
@@ -88,3 +78,9 @@ w
 G.idea/sonarlint/issuestore/9/0/90b119420229d7039add28319c2a0ee951218c45,6\1\6102d4a9076bf5ba40a3a8ab9abadeac756b8db2
 Å
 Q.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,b\b\bbf202272a96de5cd6b6828ffdc55fb3ce45289c
+O
+src/main/java/ConfigReader.java,2\e\2e9c4627583db043d869f4d32a731baac10b2469
+T
+$src/main/java/DatabaseConnector.java,8\e\8ec63e55f821a6d10d048e986daf40094e081941
+M
+src/main/java/UsuarioDAO.java,d\0\d0204e6ba306b61217f23cad3ca7e7c6d92a6dcc
